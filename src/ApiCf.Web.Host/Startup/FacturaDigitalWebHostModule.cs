@@ -12,6 +12,7 @@ using Abp.Events.Bus;
 
 namespace ApiCf.Web.Host.Startup
 {
+
     [DependsOn(
        typeof(ApiCfWebCoreModule))]
     public class ApiCfWebHostModule: AbpModule

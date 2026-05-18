@@ -9,6 +9,7 @@ namespace ApiCf.Entidades.FacturaDGIINs
     public interface IFacturacionAppService : IApplicationService
     {
         Task<MedicalEcfProcessResultDto> ProcesarComprobanteMedicoEcf(MedicalEcfProcessRequestDto request);
+
     }
 }
 
